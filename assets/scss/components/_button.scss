@@ -1,0 +1,18 @@
+@use "../vendors/variables" as *;
+
+.app-btn {
+  padding: 11px 20px 11px 20px;
+  gap: 10px;
+  border-radius: 60px;
+  opacity: 0px;
+  span {
+    font-family: "app-font-bold";
+  }
+}
+
+.app-btn.primary {
+  background-color: $color-secondary-accent;
+  span {
+    color: $color-white;
+  }
+}

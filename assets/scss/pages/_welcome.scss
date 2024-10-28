@@ -1,0 +1,28 @@
+@use "../vendors/variables" as *;
+
+.welcome-page {
+  @apply w-full h-screen px-[30px];
+  @apply flex flex-col justify-center items-center;
+  background-color: $color-lighter-gray;
+  .img-welcome {
+    img {
+      max-width: 325px;
+      max-height: 288px;
+    }
+  }
+
+  h1 {
+    color: $color-darker-gray;
+    line-height: 31.2px;
+    text-align: center;
+    font-family: "app-font-bold";
+    @apply text-[26px] mt-[60px];
+  }
+
+  p {
+    text-align: center;
+    max-width: 570px;
+    @apply mt-[30px] mb-[50px] max-md:max-w-[315px];
+    color: $color-dark-gray;
+  }
+}

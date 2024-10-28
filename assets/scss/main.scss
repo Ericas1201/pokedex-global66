@@ -1,0 +1,12 @@
+@use "vendors/variables";
+@use "components/button";
+@use "vendors/fonts";
+@use "pages/welcome";
+
+body {
+  font-family: "app-font-regular";
+}
+
+.bg-principal {
+  background-color: $color-lighter-gray;
+}
